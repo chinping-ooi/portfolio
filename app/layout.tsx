@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_MY",
-    url: "https://your-portfolio-url.com",
+    url: "https://portfolio-chinping.vercel.app",
     title: "Ooi Chin Ping | Junior Software Engineer",
     description: "Building visually polished and reliable web applications with a focus on Frontend excellence and ERP logic.",
     siteName: "Ooi Chin Ping Portfolio",
