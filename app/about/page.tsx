@@ -83,7 +83,7 @@ export default function About() {
               <span className="text-orange-500 font-bold tracking-[0.3em] uppercase text-xs mb-4 block">Professional Profile</span>
               <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6 leading-[1.1]">
                 Junior <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Software</span> Engineer.
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Software</span> Developer.
               </h1>
               <p className="text-base md:text-lg text-gray-400 leading-relaxed font-light max-w-xl">
                 I'm Ooi Chin Ping, a Junior Software Developer with nearly <span className="text-white font-medium"> 2 years</span> of full-stack experience, primarily focused on <span className="text-white font-medium">frontend and backend</span> architectures for <span className="text-white font-medium">website and ERP development</span>, along with basic DevOps tools. I have delivered <span className="text-white font-medium">20+ CMS websites</span> and contributed to <span className="text-white font-medium">2+ ERP systems</span>.
