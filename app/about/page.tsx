@@ -34,7 +34,7 @@ export default function About() {
 
   return (
     <main className="relative min-h-screen bg-black overflow-hidden selection:bg-orange-500 selection:text-white">
-      <div className="absolute inset-0 z-0 opacity-60 scale-105 transition-opacity duration-1000" style={{ backgroundImage: "url('/background/flower-4.jpg')", backgroundSize: "cover", backgroundPosition: "center", filter: "grayscale(20%) brightness(0.6)" }} />
+      <div className="absolute inset-0 z-0 opacity-60 scale-105 transition-opacity duration-1000" style={{ backgroundImage: "url('/background/flower-2.jpg')", backgroundSize: "cover", backgroundPosition: "center", filter: "grayscale(20%) brightness(0.6)" }} />
       <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/60 via-black/20 to-black/80" />
       <div className="absolute inset-0 z-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-transparent to-black/60" />
 
@@ -58,8 +58,8 @@ export default function About() {
                 Junior <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Software</span> Engineer.
               </h1>
-              <p className="text-lg text-gray-400 leading-relaxed font-light max-w-xl">
-                I'm Ooi Chin Ping, a Junior Software Engineer with <span className="text-white font-medium">nearly 2 years</span> of full-stack experience in <span className="text-white font-medium">website and ERP development</span>, along with basic DevOps tools. I have delivered <span className="text-white font-medium">20+ CMS websites</span> and contributed to <span className="text-white font-medium">2 ERP systems</span>.
+              <p className="text-base md:text-lg text-gray-400 leading-relaxed font-light max-w-xl">
+                I'm Ooi Chin Ping, a Junior Software Engineer with nearly <span className="text-white font-medium"> 2 years</span> of full-stack experience, primarily focused on <span className="text-white font-medium">frontend and backend</span> architectures for <span className="text-white font-medium">website and ERP development</span>, along with basic DevOps tools. I have delivered <span className="text-white font-medium">20+ CMS websites</span> and contributed to <span className="text-white font-medium">2+ ERP systems</span>.
               </p>
             </div>
 
@@ -81,7 +81,7 @@ export default function About() {
               </div>
             </div>
 
-            <a href="/resume.pdf" download className="inline-flex items-center gap-3 px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full hover:bg-orange-500 hover:text-white transition-all active:scale-95 mt-2 w-fit">
+            <a href="https://drive.google.com/file/d/1W5kr_XbUxZsLvfXEzbZuP12empF3eeg-/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full hover:bg-orange-500 hover:text-white transition-all active:scale-95 mt-2 w-fit">
               DOWNLOAD RESUME
             </a>
           </div>
@@ -187,7 +187,7 @@ export default function About() {
         <div className="mb-20 md:mb-32">
           <div className="mb-10 md:mb-16">
             <span className="text-orange-500 font-bold tracking-[0.3em] uppercase text-xs mb-4 block">Tech Stack</span>
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">Technical Skills</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">Coding Skills</h2>
           </div>
 
           <div className="space-y-12">
@@ -214,6 +214,17 @@ export default function About() {
                 {["Next.js", "Java", "PHP", "C", "JSP", "JQuery", "AJAX", "Supabase", "Docker", "Nginx", "PM2"].map((tech) => (
                   <span key={tech} className="px-5 py-2.5 bg-white/5 border border-white/10 rounded-full text-gray-400 text-sm font-medium hover:border-white/30 transition-all cursor-default">
                     {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="p-10 bg-white/5 backdrop-blur-xl rounded-[2.5rem] border border-white/10">
+              <h3 className="text-sm font-black text-orange-500 uppercase tracking-[0.3em] mb-8">Languages</h3>
+              <div className="flex flex-wrap gap-3">
+                {["English", "Malay", "Chinese (Mandarin) - Fluent", "Hokkien", "Teochew"].map((lang) => (
+                  <span key={lang} className="px-5 py-2.5 bg-white/5 border border-white/10 rounded-full text-white text-sm font-medium hover:border-orange-500/50 hover:bg-white/10 transition-all cursor-default">
+                    {lang}
                   </span>
                 ))}
               </div>

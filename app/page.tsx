@@ -32,9 +32,9 @@ export default function Home() {
           </h1>
         </div>
 
-        <p className="text-xs md:text-base text-gray-400 max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed font-light animate-fade-in [animation-delay:400ms]">
-          Junior Software Engineer specializing in <span className="text-white font-medium">website and ERP development</span>.
-          With <span className="text-white font-medium">nearly 2 years of full-stack experience</span>, building and delivering <span className="text-white font-medium">20+ CMS websites</span> and reliable enterprise applications.
+        <p className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed font-light animate-fade-in [animation-delay:400ms]">
+          Junior Software Engineer with nearly <span className="text-white font-medium"> 2 years</span> of full-stack experience.
+          Primarily focused on <span className="text-white font-medium">frontend and backend</span> for <span className="text-white font-medium">website and ERP development</span>, building and delivering <span className="text-white font-medium">20+ CMS websites</span> and reliable enterprise applications.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-5 animate-fade-in [animation-delay:600ms]">
@@ -49,7 +49,7 @@ export default function Home() {
             GET IN TOUCH
           </Link>
 
-          <a href="/resume.pdf" download className="px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full backdrop-blur-md hover:bg-orange-500 hover:text-white transition-all active:scale-95 text-center">
+          <a href="https://drive.google.com/file/d/1W5kr_XbUxZsLvfXEzbZuP12empF3eeg-/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full backdrop-blur-md hover:bg-orange-500 hover:text-white transition-all active:scale-95 text-center">
             DOWNLOAD RESUME
           </a>
         </div>
