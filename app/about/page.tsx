@@ -86,7 +86,7 @@ export default function About() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Software</span> Engineer.
               </h1>
               <p className="text-base md:text-lg text-gray-400 leading-relaxed font-light max-w-xl">
-                I'm Ooi Chin Ping, a Junior Software Engineer with nearly <span className="text-white font-medium"> 2 years</span> of full-stack experience, primarily focused on <span className="text-white font-medium">frontend and backend</span> architectures for <span className="text-white font-medium">website and ERP development</span>, along with basic DevOps tools. I have delivered <span className="text-white font-medium">20+ CMS websites</span> and contributed to <span className="text-white font-medium">2+ ERP systems</span>.
+                I'm Ooi Chin Ping, a Junior Software Developer with nearly <span className="text-white font-medium"> 2 years</span> of full-stack experience, primarily focused on <span className="text-white font-medium">frontend and backend</span> architectures for <span className="text-white font-medium">website and ERP development</span>, along with basic DevOps tools. I have delivered <span className="text-white font-medium">20+ CMS websites</span> and contributed to <span className="text-white font-medium">2+ ERP systems</span>.
                 Currently looking for <span className="text-white font-medium">frontend-focused</span> roles, but also open to <span className="text-white font-medium">backend</span> positions.
               </p>
             </div>
@@ -109,7 +109,7 @@ export default function About() {
               </div>
             </div>
 
-            <a href="https://drive.google.com/file/d/1kS0Npw-8jDKp9w87ybl4rsMAk_P238R2/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full hover:bg-orange-500 hover:text-white transition-all active:scale-95 mt-2 w-fit">
+            <a href="https://drive.google.com/file/d/1iSx9Ili0cRfLQDcd4WAeskABNjP6qQxH/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full hover:bg-orange-500 hover:text-white transition-all active:scale-95 mt-2 w-fit">
               DOWNLOAD RESUME
             </a>
           </div>
@@ -125,7 +125,7 @@ export default function About() {
             <div className="p-10 bg-white/5 backdrop-blur-xl rounded-[2.5rem] border border-white/10 hover:border-orange-500/20 transition-all duration-500">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-10">
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-2 tracking-tight">Junior Software Engineer</h3>
+                  <h3 className="text-2xl font-bold text-white mb-2 tracking-tight">Junior Software Developer</h3>
                   <p className="text-gray-400 font-medium mb-3 text-sm">Lexi Global Sdn Bhd</p>
                   <p className="text-orange-500 font-bold tracking-[0.2em] text-[10px] uppercase">Full-Stack Development</p>
                 </div>
