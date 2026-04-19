@@ -1,6 +1,6 @@
 "use client"
 
-import { GraduationCap, CheckCircle2 } from "lucide-react";
+import { GraduationCap, CheckCircle2, User, Terminal } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const education = [
@@ -42,12 +42,39 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-12 md:gap-16 items-center mb-20 md:mb-32">
           <div className="relative group animate-fade-in-left">
             <div className="absolute -inset-4 bg-orange-500/20 rounded-[2rem] blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-            <div className="relative aspect-square overflow-hidden rounded-[2rem] border border-white/10 shadow-2xl bg-white/5 backdrop-blur-sm">
-              <img
-                src="/profile.png"
-                alt="Ooi Chin Ping"
-                className="w-full h-full object-cover grayscale-[30%] hover:grayscale-0 transition-all duration-700 hover:scale-105"
-              />
+            <div className="relative aspect-square overflow-hidden rounded-[2rem] border border-white/20 shadow-2xl bg-white/[0.07] backdrop-blur-md flex items-center justify-center group-hover:border-orange-500/40 transition-all duration-700">
+              {/* Animated Background Mesh - Slightly brighter */}
+              <div className="absolute inset-0 opacity-30 transition-opacity duration-1000 group-hover:opacity-50">
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,_#f97316_0%,transparent_60%)]" />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_80%,_#f97316_0%,transparent_60%)]" />
+              </div>
+
+              <div className="relative z-10 flex flex-col items-center gap-6">
+                <div className="relative p-8 rounded-full bg-white/10 border border-white/20 group-hover:border-orange-500/40 group-hover:bg-orange-500/10 transition-all duration-700 overflow-hidden">
+                  <User size={80} strokeWidth={0.5} className="text-white/40 group-hover:text-orange-500 transition-all duration-700 transform group-hover:scale-110" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-orange-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+                </div>
+                
+                <div className="text-center space-y-2">
+                  <div className="text-4xl font-black tracking-tighter text-white group-hover:text-orange-400 transition-all duration-700">
+                    Chin Ping
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse shadow-[0_0_8px_rgba(249,115,22,0.8)]" />
+                    <span className="text-[10px] uppercase tracking-[0.4em] text-gray-400 font-bold">Identity Active</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Decorative terminal corners - slightly more visible */}
+              <div className="absolute top-6 left-6 w-12 h-12 border-t border-l border-white/20 group-hover:border-orange-500/40 transition-all duration-700 rounded-tl-lg" />
+              <div className="absolute bottom-6 right-6 w-12 h-12 border-b border-r border-white/20 group-hover:border-orange-500/40 transition-all duration-700 rounded-br-lg" />
+              <div className="absolute top-6 right-6">
+                <Terminal size={14} className="text-white/10 group-hover:text-orange-500/30 transition-all duration-700" />
+              </div>
+
+              {/* Scanning Line */}
+              <div className="absolute inset-x-0 h-px bg-gradient-to-r from-transparent via-orange-500/40 to-transparent top-0 animate-scan pointer-events-none" />
             </div>
           </div>
 
@@ -157,7 +184,7 @@ export default function About() {
             <div className="p-10 bg-white/5 backdrop-blur-xl rounded-[2.5rem] border border-white/10 hover:border-orange-500/10 transition-all duration-500 group">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2 tracking-tight">IT Technical Support (Intern)</h3>
+                  <h3 className="text-xl font-bold text-white mb-2 tracking-tight">IT Support Technical (Intern)</h3>
                   <p className="text-gray-400 font-medium mb-3 text-sm">Maxfinity IT Business Solution</p>
                   <p className="text-orange-500 font-bold tracking-[0.2em] text-[10px] uppercase">Infrastructure & Support</p>
                 </div>
