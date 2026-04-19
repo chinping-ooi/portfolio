@@ -49,7 +49,7 @@ export default function Home() {
             GET IN TOUCH
           </Link>
 
-          <a href="https://drive.google.com/file/d/1W5kr_XbUxZsLvfXEzbZuP12empF3eeg-/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full backdrop-blur-md hover:bg-orange-500 hover:text-white transition-all active:scale-95 text-center">
+          <a href="https://drive.google.com/file/d/1kS0Npw-8jDKp9w87ybl4rsMAk_P238R2/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full backdrop-blur-md hover:bg-orange-500 hover:text-white transition-all active:scale-95 text-center">
             DOWNLOAD RESUME
           </a>
         </div>

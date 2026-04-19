@@ -54,7 +54,7 @@ export default function About() {
                   <User size={80} strokeWidth={0.5} className="text-white/40 group-hover:text-orange-500 transition-all duration-700 transform group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-orange-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
                 </div>
-                
+
                 <div className="text-center space-y-2">
                   <div className="text-4xl font-black tracking-tighter text-white group-hover:text-orange-400 transition-all duration-700">
                     Chin Ping
@@ -87,6 +87,7 @@ export default function About() {
               </h1>
               <p className="text-base md:text-lg text-gray-400 leading-relaxed font-light max-w-xl">
                 I'm Ooi Chin Ping, a Junior Software Engineer with nearly <span className="text-white font-medium"> 2 years</span> of full-stack experience, primarily focused on <span className="text-white font-medium">frontend and backend</span> architectures for <span className="text-white font-medium">website and ERP development</span>, along with basic DevOps tools. I have delivered <span className="text-white font-medium">20+ CMS websites</span> and contributed to <span className="text-white font-medium">2+ ERP systems</span>.
+                Currently looking for <span className="text-white font-medium">frontend-focused</span> roles, but also open to <span className="text-white font-medium">backend</span> positions.
               </p>
             </div>
 
@@ -108,7 +109,7 @@ export default function About() {
               </div>
             </div>
 
-            <a href="https://drive.google.com/file/d/1W5kr_XbUxZsLvfXEzbZuP12empF3eeg-/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full hover:bg-orange-500 hover:text-white transition-all active:scale-95 mt-2 w-fit">
+            <a href="https://drive.google.com/file/d/1kS0Npw-8jDKp9w87ybl4rsMAk_P238R2/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full hover:bg-orange-500 hover:text-white transition-all active:scale-95 mt-2 w-fit">
               DOWNLOAD RESUME
             </a>
           </div>
