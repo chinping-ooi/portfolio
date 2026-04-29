@@ -108,7 +108,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-white font-bold text-lg mb-1 tracking-tight">Location</h3>
-                  <p className="text-gray-400 text-sm transition-colors group-hover:text-white/80">Based in Perak / Penang.</p>
+                  <p className="text-gray-400 text-sm transition-colors group-hover:text-white/80">Based in Tanjong Piandang, Perak / Penang.</p>
                 </div>
               </div>
             </div>

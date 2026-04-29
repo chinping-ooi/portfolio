@@ -49,7 +49,7 @@ export default function Home() {
             GET IN TOUCH
           </Link>
 
-          <a href="https://drive.google.com/file/d/1iSx9Ili0cRfLQDcd4WAeskABNjP6qQxH/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full backdrop-blur-md hover:bg-orange-500 hover:text-white transition-all active:scale-95 text-center">
+          <a href="https://drive.google.com/file/d/1TpnE3YQRVhmpZmrzTkegqYSsDIDH-36k/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full backdrop-blur-md hover:bg-orange-500 hover:text-white transition-all active:scale-95 text-center">
             DOWNLOAD RESUME
           </a>
         </div>
@@ -69,7 +69,7 @@ export default function Home() {
       </div>
 
       <div className="absolute bottom-10 right-10 z-20 text-right hidden lg:block opacity-90">
-        <span className="text-[11px] text-white font-bold tracking-[0.2em] uppercase block mb-1">Based in Perak / Penang, Malaysia</span>
+        <span className="text-[11px] text-white font-bold tracking-[0.2em] uppercase block mb-1">Based in Tanjong Piandang, Perak / Penang, Malaysia</span>
         <span className="text-[10px] text-orange-500 font-bold tracking-[0.2em] uppercase">Open for Opportunities</span>
       </div>
     </main>

@@ -109,7 +109,7 @@ export default function About() {
               </div>
             </div>
 
-            <a href="https://drive.google.com/file/d/1iSx9Ili0cRfLQDcd4WAeskABNjP6qQxH/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full hover:bg-orange-500 hover:text-white transition-all active:scale-95 mt-2 w-fit">
+            <a href="https://drive.google.com/file/d/1TpnE3YQRVhmpZmrzTkegqYSsDIDH-36k/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full hover:bg-orange-500 hover:text-white transition-all active:scale-95 mt-2 w-fit">
               DOWNLOAD RESUME
             </a>
           </div>
