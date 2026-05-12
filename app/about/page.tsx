@@ -109,7 +109,7 @@ export default function About() {
               </div>
             </div>
 
-            <a href="https://drive.google.com/file/d/1TpnE3YQRVhmpZmrzTkegqYSsDIDH-36k/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full hover:bg-orange-500 hover:text-white transition-all active:scale-95 mt-2 w-fit">
+            <a href="https://drive.google.com/file/d/1h9f9As4R35pNS7jKdnDGml42ieNikjqH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full hover:bg-orange-500 hover:text-white transition-all active:scale-95 mt-2 w-fit">
               DOWNLOAD RESUME
             </a>
           </div>
@@ -185,7 +185,7 @@ export default function About() {
             <div className="p-10 bg-white/5 backdrop-blur-xl rounded-[2.5rem] border border-white/10 hover:border-orange-500/10 transition-all duration-500 group">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2 tracking-tight">IT Support Technical (Intern)</h3>
+                  <h3 className="text-xl font-bold text-white mb-2 tracking-tight">IT Engineer (Intern)</h3>
                   <p className="text-gray-400 font-medium mb-3 text-sm">Maxfinity IT Business Solution</p>
                   <p className="text-orange-500 font-bold tracking-[0.2em] text-[10px] uppercase">Infrastructure & Support</p>
                 </div>
@@ -197,9 +197,10 @@ export default function About() {
               <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
                 <ul className="space-y-4">
                   {[
-                    "Assisted in professional hardware repair and multi-level troubleshooting.",
-                    "Managed full system and software installations for optimized performance.",
-                    "Provided efficient onsite and remote IT support to resolve critical issues."
+                    "Assisted with hardware troubleshooting and repair.",
+                    "Installed and configured operating systems and software.",
+                    "Provided onsite and remote IT support for end-users.",
+                    "Supported basic network troubleshooting and device setup."
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-4 text-gray-400 text-sm leading-relaxed max-w-2xl">
                       <div className="mt-1.5 w-1 h-1 rounded-full bg-orange-500 shrink-0"></div>
