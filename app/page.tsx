@@ -33,7 +33,7 @@ export default function Home() {
         </div>
 
         <p className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed font-light animate-fade-in [animation-delay:400ms]">
-          Junior Software Developer with nearly <span className="text-white font-medium"> 2 years</span> of full-stack experience.
+          Junior Software Developer with <span className="text-white font-medium"> 2 years</span> of full-stack experience.
           Primarily focused on <span className="text-white font-medium">frontend and backend</span> for <span className="text-white font-medium">website and ERP development</span>, building and delivering <span className="text-white font-medium">20+ CMS websites</span> and reliable enterprise applications.
         </p>
 
