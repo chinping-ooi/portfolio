@@ -1,10 +1,22 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: Request) {
   try {
+    const RESEND_API_KEY = process.env.RESEND_API_KEY || (globalThis as any).__CLOUDFLARE_PAGES_ENV?.RESEND_API_KEY;
+
+    if (!RESEND_API_KEY) {
+      console.error('RESEND_API_KEY is missing');
+      return NextResponse.json(
+        { success: false, error: 'Server configuration error: Missing API key' },
+        { status: 500 }
+      );
+    }
+
+    const resend = new Resend(RESEND_API_KEY);
+
     const { name, email, subject, message } = await request.json();
 
     const data = await resend.emails.send({
