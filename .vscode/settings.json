@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "wrangler.toml": "toml"
+  },
+  "json.schemas": [
+    {
+      "fileMatch": ["wrangler.json", "wrangler.jsonc"],
+      "url": "./node_modules/wrangler/config-schema.json"
+    }
+  ]
+}
