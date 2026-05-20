@@ -6,9 +6,14 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "opennext:build": "npx opennextjs-cloudflare build",
+    "opennext:deploy": "npx opennextjs-cloudflare deploy",
+    "opennext:dev": "npx opennextjs-cloudflare dev"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.19.11",
+    "cloudflare": "^6.2.0",
     "lucide-react": "^1.8.0",
     "next": "^16.2.6",
     "react": "19.2.4",
