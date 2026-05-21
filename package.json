@@ -12,8 +12,6 @@
     "opennext:dev": "npx opennextjs-cloudflare dev"
   },
   "dependencies": {
-    "@opennextjs/cloudflare": "^1.19.11",
-    "cloudflare": "^6.2.0",
     "lucide-react": "^1.8.0",
     "next": "^16.2.6",
     "react": "19.2.4",
@@ -21,6 +19,7 @@
     "resend": "^6.12.0"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.19.11",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
