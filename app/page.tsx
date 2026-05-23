@@ -3,6 +3,7 @@
 import { ArrowRight, Mail } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { RESUME_DRIVE_LINK } from "./constants";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -33,8 +34,9 @@ export default function Home() {
         </div>
 
         <p className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed font-light animate-fade-in [animation-delay:400ms]">
-          Junior Software Developer with <span className="text-white font-medium"> 2 years</span> of full-stack experience.
-          Primarily focused on <span className="text-white font-medium">frontend and backend</span> for <span className="text-white font-medium">website and ERP development</span>, building and delivering <span className="text-white font-medium">20+ CMS websites</span> and reliable enterprise applications.
+          Junior Software Developer with <span className="text-white font-medium"> 2 years</span> of full-stack experience in web and ERP systems.
+          Strong in <span className="text-white font-medium">frontend and backend</span> development using Angular, React, Node.js and MySQL.
+          Experienced in <span className="text-white font-medium">CMS, ERP, and SaaS</span> development, as well as deployment using basic DevOps tools.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-5 animate-fade-in [animation-delay:600ms]">
@@ -45,11 +47,11 @@ export default function Home() {
             </span>
           </Link>
 
-          <Link href="/contact" className="px-8 py-3.5 bg-white/5 border border-white/10 text-white text-xs font-black tracking-widest rounded-full backdrop-blur-md hover:bg-white/10 transition-all hover:border-white/30 active:scale-95 text-center">
-            GET IN TOUCH
+          <Link href="/about" className="px-8 py-3.5 bg-white/5 border border-white/10 text-white text-xs font-black tracking-widest rounded-full backdrop-blur-md hover:bg-white/10 transition-all hover:border-white/30 active:scale-95 text-center">
+            ABOUT ME
           </Link>
 
-          <a href="https://drive.google.com/file/d/1h9f9As4R35pNS7jKdnDGml42ieNikjqH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full backdrop-blur-md hover:bg-orange-500 hover:text-white transition-all active:scale-95 text-center">
+          <a href={RESUME_DRIVE_LINK} target="_blank" rel="noopener noreferrer" className="px-8 py-3.5 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black tracking-widest rounded-full backdrop-blur-md hover:bg-orange-500 hover:text-white transition-all active:scale-95 text-center">
             DOWNLOAD RESUME
           </a>
         </div>
