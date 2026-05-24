@@ -132,15 +132,15 @@ export default function About() {
           </div>
           <div className="p-8 md:p-12 bg-white/5 backdrop-blur-xl rounded-[2.5rem] border border-white/10 hover:border-orange-500/20 transition-all duration-500 relative group overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
-            
+
             <p className="text-gray-400 leading-relaxed font-light text-base md:text-lg mb-6 relative z-10">
               I have always been passionate about coding and building things that work. Over the past two years, I’ve built web and ERP systems using <span className="text-white font-medium">Angular, React, and Node.js</span>. I can take a web project from <span className="text-white font-medium">0 to 1</span>, from planning to building to deploying.
             </p>
-            
+
             <p className="text-gray-400 leading-relaxed font-light text-base md:text-lg mb-6 relative z-10">
               When it comes to ERP, I implement features based on what clients ask for, and I'm always learning the business logic behind them. I don’t claim to know everything about complex ERP flows, but I know how to <span className="text-white font-medium">work with requirements, debug issues, and deliver working software</span>.
             </p>
-            
+
             <p className="text-gray-400 leading-relaxed font-light text-base md:text-lg relative z-10">
               In the future, if given the opportunity, I would love to explore IT engineering areas like <span className="text-white font-medium">IoT embedded systems and networking</span>. Eventually, I hope to become an expert in the IT field, beyond just development.
             </p>
@@ -208,7 +208,7 @@ export default function About() {
               <div className="pt-8 border-t border-white/5">
                 <h4 className="text-white text-[10px] font-black uppercase tracking-[0.2em] mb-4 opacity-40">Tech Utilized</h4>
                 <div className="flex flex-wrap gap-2">
-                  {["HTML / CSS / SCSS", "JavaScript / TypeScript", "Angular / React", "Node.js / Express.js", "MySQL", "MinIO", "PM2", "Docker", "Nginx", "Cloudflare"].map(tech => (
+                  {["Angular / React", "JavaScript / TypeScript", "HTML / CSS / SCSS", "Bootstrap / Tailwind", "Node.js / Express.js", "MySQL", "MinIO", "PM2", "Docker", "Nginx", "Cloudflare"].map(tech => (
                     <span key={tech} className="px-3 py-1 bg-white/5 rounded-md text-[11px] text-gray-300 font-medium">
                       {tech}
                     </span>
@@ -220,7 +220,7 @@ export default function About() {
             <div className="p-10 bg-white/5 backdrop-blur-xl rounded-[2.5rem] border border-white/10 hover:border-orange-500/10 transition-all duration-500 group">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2 tracking-tight">IT Engineer (Intern)</h3>
+                  <h3 className="text-xl font-bold text-white mb-2 tracking-tight">IT Engineer (Internship)</h3>
                   <p className="text-gray-400 font-medium mb-3 text-sm">Maxfinity IT Business Solution</p>
                   <p className="text-orange-500 font-bold tracking-[0.2em] text-[10px] uppercase">Infrastructure & Support</p>
                 </div>

@@ -60,7 +60,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en">
       <body className={`${inter.className}`}>
         <div className="bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 text-black text-center py-2.5 px-4 text-[10px] sm:text-xs font-black tracking-widest uppercase fixed top-0 left-0 right-0 w-full z-50">
-          Latest Resume Updated — 
+          Latest Resume Updated 23/05/26 —
           <a href={RESUME_DRIVE_LINK} target="_blank" rel="noopener noreferrer" className="ml-2 underline underline-offset-4 hover:text-white transition-colors">
             Preview / Download
           </a>

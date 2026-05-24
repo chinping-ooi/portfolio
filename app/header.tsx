@@ -33,13 +33,13 @@ export default function Header() {
         <>
             {/* Top Left Home Button */}
             <div className="fixed top-5 left-5 z-[1000]">
-                <Link href="/" className="text-white p-4 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] hover:text-orange-500 hover:scale-110 flex items-center justify-center">
+                <Link href="/" title="Home" className="text-white p-4 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] hover:text-orange-500 hover:scale-110 flex items-center justify-center">
                     <Home size={24} />
                 </Link>
             </div>
 
             <div className="fixed top-5 right-5 z-[1000]" ref={menuRef}>
-                <button onClick={() => setIsOpen(!isOpen)} className={`absolute top-0 right-0 text-white p-4 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] z-50 ${isOpen ? "rounded border-transparent bg-transparent" : "rounded-lg border border-white/10 bg-[var(--gray)] hover:bg-neutral-800"}`}>
+                <button onClick={() => setIsOpen(!isOpen)} title="Menu" className={`absolute top-0 right-0 text-white p-4 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] z-50 ${isOpen ? "rounded border-transparent bg-transparent" : "rounded-lg border border-white/10 bg-[var(--gray)] hover:bg-neutral-800"}`}>
                     <div className={`transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${isOpen ? "rotate-180" : "rotate-0"}`}>
                         {isOpen ? <X size={24} /> : <TextAlignJustify size={24} />}
                     </div>
